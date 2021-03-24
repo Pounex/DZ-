@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*
+
         System.out.println("Введите номер месяца для первого варианта");
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
@@ -97,7 +97,7 @@ public class Main {
             System.out.println(array[i]);
         }
 
-         */
+
         int[][] squareArray = new int[2][3];
         squareArray[0][0]=11;
         squareArray[0][1]=12;
