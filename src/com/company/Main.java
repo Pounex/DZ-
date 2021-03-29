@@ -105,9 +105,9 @@ public class Main {
         squareArray[1][0]=14;
         squareArray[1][1]=15;
         squareArray[1][2]=15;
-  for (int n = 0; n<=1; n++)
+  for (int n = 0; n< squareArray.length; n++)
       {
-          for (int m = 0; m<3;m++)
+          for (int m = 0; m< squareArray[n].length;m++)
           {
               System.out.print(squareArray[n][m]+"["+n+"]"+"["+m+"] ");
           }
